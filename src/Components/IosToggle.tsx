@@ -25,7 +25,7 @@ export default class IosToggle extends React.Component <IosToggleProps, IosToggl
 
   constructor (props: IosToggleProps) {
     super(props);
-	console.log(props);
+
     this.state = { checked: !!props.checked };
   }
 
