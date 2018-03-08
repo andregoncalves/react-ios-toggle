@@ -46,7 +46,7 @@ export default {
   external: [
     'react',
   ],
-  input: './src/index.js',
+  input: './src/Components/IosToggle.tsx',
   output: {
     sourcemap: true,
     file: './dist/index.js',
