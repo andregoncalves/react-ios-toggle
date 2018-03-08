@@ -39,7 +39,7 @@ export default class IosToggle extends React.Component <IosToggleProps, IosToggl
 
     return (
       <div className="ios-toggle-container">
-        <input className={`sit sit-${this.props.theme}`} name={this.props.name} id={this.props.name} type="checkbox" value={this.props.value} checked={!!checked} />
+        <input className={`sit sit-${this.props.theme}`} name={this.props.name} id={this.props.name} type="checkbox" value={this.props.value} checked={!!checked} onChange={this._handleChange} />
         <label className="sit-btn" htmlFor={this.props.name}></label>
       </div>
     );
