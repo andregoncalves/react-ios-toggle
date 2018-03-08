@@ -18,6 +18,6 @@ export default class IosToggle extends React.Component<IosToggleProps, IosToggle
         value: string;
     };
     constructor(props: IosToggleProps);
-    _handleChange(e: React.ChangeEvent<HTMLInputElement>): void;
+    _handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
     render(): JSX.Element;
 }

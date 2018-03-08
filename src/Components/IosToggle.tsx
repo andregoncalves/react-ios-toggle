@@ -29,7 +29,7 @@ export default class IosToggle extends React.Component <IosToggleProps, IosToggl
     this.state = { checked: false };
   }
 
-  _handleChange (e: React.ChangeEvent<HTMLInputElement>) {
+  _handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     this.setState({ checked: e.target.checked });
     this.props.onChange(e);
   }
